@@ -1,0 +1,38 @@
+.navbar{
+    padding: 25px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+@media (max-width:800px) {
+    .navbar p{
+        font-size: 32px;
+    }
+}
+
+@media (max-width:600px) {
+    .navbar p{
+        font-size: 28px;
+    }
+}
+
+@media (max-width:480px) {
+    .navbar p{
+        font-size: 24px;
+    }
+}
+
+@media (max-width:360px) {
+    .navbar p{
+        font-size: 20px;
+    }
+    .navbar{
+        padding: 20px 30px;
+    }
+}
